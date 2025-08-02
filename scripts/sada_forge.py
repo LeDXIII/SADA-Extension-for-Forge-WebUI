@@ -340,12 +340,12 @@ class SADAForForge(scripts.Script):
             
             gr.HTML("""
             <div style="background-color: #e8f4fd; padding: 12px; border-radius: 8px; border: 1px solid #bee5eb;">
-                <b>🚀 SADA v4 - Updated SDXL Parameters:</b><br>
+                <b>🚀 SADA Parameters:</b><br>
                 • <b>🎯 SDXL Balanced:</b> Start=15, Skip=0.2, End=45, Threshold=0.02<br>
                 • <b>⚡ Flux Aggressive:</b> Start=7, Skip=0.3, End=35, Threshold=0.04<br>
-                • <b>📊 Clean logging:</b> Only essential messages during generation<br>
-                • <b>🔧 Manual adjust:</b> Fine-tune any setting after selecting preset<br>
-                • <b>💨 Expected speedup:</b> 1.2-1.5x (SDXL) / 1.3-1.8x (Flux)
+                • <b> Select parameters for your model. If the model reduces the main picture to 8-10 steps, then the initial steps can be reduced to 12. On Flux, you can even reduce it to 5. <br>
+                • <b> Set the final steps +8-10 to your final steps.<br>
+                • <b> For example, AnimagineXL reduces the picture to 13-14 steps, and you can speed it up from step 15. If you draw at 28 steps, then set the final steps to 35-40.
             </div>
             """)
         
@@ -390,3 +390,4 @@ class SADAForForge(scripts.Script):
             cleanup_sada_patches()
         
         return
+
