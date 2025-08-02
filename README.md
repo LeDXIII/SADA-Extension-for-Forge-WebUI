@@ -31,6 +31,9 @@ SADA extension implements intelligent step skipping for Stable Diffusion WebUI F
 **Features:** Hires Fix, Kohya Hires Fix, TiledVAE, Batch processing
 
 ### Installation
+Can be installed as a regular extension (Extension / Install from URL)
+
+### Manual installation
 
 1. Download `sada_forge.py`
 2. Place in: `extensions/sd_forge_sada/scripts/sada_forge.py`
@@ -84,7 +87,9 @@ The extension applies acceleration only within the specified step range, protect
 **Функции:** Hires Fix, Kohya Hires Fix, TiledVAE, батчевая обработка
 
 ### Установка
+Можно установить как обычное расширение (Extension / Install from URL)
 
+### Ручная установка
 1. Скачайте `sada_forge.py`
 2. Поместите в: `extensions/sd_forge_sada/scripts/sada_forge.py`
 3. Перезапустите Forge WebUI
